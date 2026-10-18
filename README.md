@@ -2,11 +2,11 @@
 
 An example of how an enterprise campus network should be designed when automation is part of the design, not an add-on. The design is expressed as structured, schema-validated data. Device configuration is rendered from that data, deployed by Ansible and validated against it.
 
-## Start Here: [design.md](design.md)
+## Start Here: [Campus Network Design](design.md)
 
-[`design.md`](design.md) is the main document. It explains the approach and then applies it to a 2,000 user, 10-floor campus for a company called ABC:
+[Campus Network Design](design.md) is the main document. It explains the approach and then applies it to a 2,000 user, 10-floor campus for a company called ABC:
 
-| Section of design.md | What it covers |
+| Section of Campus Network Design | What it covers |
 |---|---|
 | [Executive Summary](design.md#automation-native-network-design-explain---executive-summary) | The six elements of an automation-native design, and why the classic design approach drifts. |
 | [Core Concept Flow](design.md#core-concept-flow) | schema + values = data model, data model + template = rendered config, playbook + rendered config = deployed config, validation = data model vs deployed config. |
