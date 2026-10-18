@@ -1,13 +1,13 @@
 ---
 # ============================================================================
-# Full build, in the order design.md's "Step 1. Baseline Build" specifies,
-# plus a pre-flight render-vs-data-model check (design.md's "## Validation",
+# Full build, in the order Campus Network Design.md's "Step 1. Baseline Build" specifies,
+# plus a pre-flight render-vs-data-model check (Campus Network Design.md's "## Validation",
 # layer 1) that runs before anything else:
 #   validate render -> baseline -> validate -> physical topology ->
 #   validate p2p connectivity -> logical topology -> validate L3/vlan ->
 #   streaming telemetry
 # ============================================================================
-# Prerequisites (also stated in design.md):
+# Prerequisites (also stated in Campus Network Design.md):
 #   - Management network up, devices reachable by these Ansible runners
 #     (see inventory/hosts.yml's FINDING about ansible_host / OOB IPAM gap)
 #   - Devices physically racked and patched per Rack_Patching_Record.md

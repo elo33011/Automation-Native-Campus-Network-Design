@@ -21,7 +21,7 @@ within that interface's own stanza (parse_interface_stanzas), never against
 the file as a blob. A naive `expected in cfg_text` check would report a
 false PASS for e.g. `hostname abc-hq-cor-01` against a rendered
 `hostname abc-hq-cor-01-TYPO` line (the expected string is still a
-substring) -- caught during this script's own self-test (see design.md's
+substring) -- caught during this script's own self-test (see Campus Network Design.md's
 Validation Reports section) by deliberately corrupting a rendered config
 and confirming the validator flagged it before trusting a clean run.
 

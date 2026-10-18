@@ -428,7 +428,7 @@
             ],
             "additionalProperties": false
           },
-          "description": "Only floor_number: 1 is spelled out; floors 2-10 repeat this same access_switches pattern (see design.md and the templates' own header notes)."
+          "description": "Only floor_number: 1 is spelled out; floors 2-10 repeat this same access_switches pattern (see Campus Network Design.md and the templates' own header notes)."
         }
       },
       "required": [
