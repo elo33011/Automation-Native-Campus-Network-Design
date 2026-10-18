@@ -175,7 +175,7 @@ OVERRIDES = {
         (["site_physical_topology", "floors"],
          {"description": "Only floor_number: 1 is spelled out; floors 2-10 "
                           "repeat this same access_switches pattern (see "
-                          "design.md and the templates' own header notes)."}),
+                          "Campus Network Design.md and the templates' own header notes)."}),
     ],
     "physical topology management network.yaml": [
         (["management_context", "management_tier", "mgt_wan_routers", "external_links", "type"],
@@ -318,7 +318,7 @@ OVERRIDES = {
 }
 
 # ============================================================================
-# Per-file metadata (title/description drawn from design.md's own Data
+# Per-file metadata (title/description drawn from Campus Network Design.md's own Data
 # Models / Device Role Models tables) + output filename
 # ============================================================================
 

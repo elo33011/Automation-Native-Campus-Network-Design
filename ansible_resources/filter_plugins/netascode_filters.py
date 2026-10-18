@@ -14,7 +14,7 @@ import re
 
 
 # ---------------------------------------------------------------------------
-# Platform / role mapping (from design.md "Device Role Models" table:
+# Platform / role mapping (from Campus Network Design.md "Device Role Models" table:
 # WAN Edge Role -> Catalyst 8000, Core & Agg Role -> Nexus 93240,
 # Access Role -> Catalyst 9000). Neither yaml model carries a platform
 # field, so this mapping is derived from the device-naming convention
@@ -169,7 +169,7 @@ def find_ip_owner(site_context, ip_addr):
 
 def wan_peer_binding(site_physical_topology, site_context, device_name, peer):
     """For one bgp_peers entry on a WAN router (which has no `interfaces:`
-    array of its own in logical_topology.yaml -- see design.md's own
+    array of its own in logical_topology.yaml -- see Campus Network Design.md's own
     catalyst 8000.j2 header note), resolve:
       - local_port : the physical interface this session rides over
       - own_ip     : this device's own /31 address on that link
