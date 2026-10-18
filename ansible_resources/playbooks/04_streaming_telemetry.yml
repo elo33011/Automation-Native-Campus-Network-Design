@@ -57,7 +57,7 @@
     #
     # This confirms the device is CONFIGURED to stream, not that the
     # collector at that IP is actually receiving anything -- that needs a
-    # real collector in the loop and is a separate concern (see Campus Network Design.md's
+    # real collector in the loop and is a separate concern (see design.md's
     # Streaming Telemetry section for what this stage does and doesn't
     # cover).
     # -------------------------------------------------------------------

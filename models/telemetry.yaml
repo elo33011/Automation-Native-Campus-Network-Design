@@ -58,7 +58,7 @@ site_telemetry:
   # gets (wan-edge / core / aggregation-transit / access-vtep), same
   # "role picks the config, not the individual device" pattern
   # endpoint_interfaces.default_profile already uses in endpoint service.yaml.
-  # A role with no entry here is a documented gap (see Campus Network Design.md), not
+  # A role with no entry here is a documented gap (see design.md), not
   # silently defaulted -- device_telemetry_subscription() returns an empty
   # subscription rather than guessing.
   role_subscriptions:

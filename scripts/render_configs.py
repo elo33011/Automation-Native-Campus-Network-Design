@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Renders the full per-device configuration for every device in
-physical_topology.yaml by chaining, in the order Campus Network Design.md's "Step 1.
+physical_topology.yaml by chaining, in the order design.md's "Step 1.
 Baseline Build" workflow specifies:
   1. the platform baseline template (catalyst 8000.j2 / nexus 93240.j2 /
      catalyst 9000.j2)  -- device-wide hardening, no topology data

@@ -1,6 +1,6 @@
 ---
 # ============================================================================
-# Pre-flight: render-vs-data-model validation (Campus Network Design.md's "## Validation",
+# Pre-flight: render-vs-data-model validation (design.md's "## Validation",
 # layer 1). Confirms the CLI that scripts/render_configs.py / the templates
 # would produce for every device actually matches what
 # physical_topology.yaml / logical_topology.yaml / the platform role
